@@ -11,7 +11,7 @@
 
 ## 👋 Welcome to AKASH_DEV
 
-```js
+``js
 > Interfacing with the digital_matrix...
 > Crafting_cybernetic_experiences.exe
 > JACK_IN — STATUS: ONLINE | VERSION: 2025.09.06
