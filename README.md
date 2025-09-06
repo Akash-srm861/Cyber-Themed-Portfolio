@@ -40,7 +40,10 @@ Copy code
 cd Cyber-Themed-Portfolio
 Open in your browser:
 
-Just open index.html in your browser — no builds needed, no dependencies 🚀
+bash
+Copy code
+index.html
+✅ Just open index.html in your browser — no builds needed, no dependencies 🚀
 
 📡 Connect with Me
 <p align="center"> <a href="mailto:akashrgs212006@gmail.com"> <img src="https://img.shields.io/badge/EMAIL-protocol-gmail-red?style=for-the-badge&logo=gmail" alt="Email Badge" /> </a> <a href="https://instagram.com/a_k_a_s_h__0__7"> <img src="https://img.shields.io/badge/Instagram-profile-ff007f?style=for-the-badge&logo=instagram" alt="Instagram Badge" /> </a> </p>
