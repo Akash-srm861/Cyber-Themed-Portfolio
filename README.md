@@ -11,22 +11,8 @@
 
 ## 👋 Welcome to AKASH_DEV
 
-``js
-> Interfacing with the digital_matrix...
-> Crafting_cybernetic_experiences.exe
-> JACK_IN — STATUS: ONLINE | VERSION: 2025.09.06
-🚀 About Me
-Frontend Developer & Cyber UI Enthusiast
 
-Enemy of bland designs, ally to futuristic aesthetics
-
-Building digital experiences with edge and electric vibes
-
-🌍 Live Portfolio & Projects
-Project	Link
-Cybernetic Portfolio Interface	Live Demo
-Source Code	GitHub Repo
-
+```
 📥 How to Access My Code
 Clone the repository:
 
@@ -44,6 +30,15 @@ bash
 Copy code
 index.html
 ✅ Just open index.html in your browser — no builds needed, no dependencies 🚀
+```
+ ## 📡 Connect with Me
 
-📡 Connect with Me
-<p align="center"> <a href="mailto:akashrgs212006@gmail.com"> <img src="https://img.shields.io/badge/EMAIL-protocol-gmail-red?style=for-the-badge&logo=gmail" alt="Email Badge" /> </a> <a href="https://instagram.com/a_k_a_s_h__0__7"> <img src="https://img.shields.io/badge/Instagram-profile-ff007f?style=for-the-badge&logo=instagram" alt="Instagram Badge" /> </a> </p>
+<p align="center">
+  <a href="mailto:akashrgs212006@gmail.com">
+    <img src="https://img.shields.io/badge/Email-akashrgs212006%40gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
+  </a>
+  <a href="https://instagram.com/a_k_a_s_h__0__7">
+    <img src="https://img.shields.io/badge/Instagram-a_k_a_s_h__0__7-ff007f?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge" />
+  </a>
+</p>
+
