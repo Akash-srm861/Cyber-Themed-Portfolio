@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKASH_DEV_2025 - Cyber Interface</title>
+    <link rel="icon" type="image/jpeg" href="akash.jpg">
+    <link rel="apple-touch-icon" href="akash.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app/globals.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: '#0a0a0f',
+                        foreground: '#00ffff',
+                        accent: '#00ffff',
+                        secondary: '#ff006e',
+                        primary: '#0f3460'
+                    },
+                    fontFamily: {
+                        'cyber': ['Orbitron', 'sans-serif'],
+                        'mono': ['Roboto Mono', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-mono bg-background text-foreground overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-primary/95 backdrop-blur-sm z-50 transition-all duration-300 border-b border-accent/20" id="navbar">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-cyber font-bold text-accent neon-text">
+                    &lt;AKASH_DEV/&gt;
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link text-foreground hover:text-accent font-mono uppercase tracking-wide">INIT</a>
+                    <a href="#about" class="nav-link text-foreground hover:text-accent font-mono uppercase tracking-wide">PROFILE</a>
+                    <a href="#skills" class="nav-link text-foreground hover:text-accent font-mono uppercase tracking-wide">MATRIX</a>
+                    <a href="#projects" class="nav-link text-foreground hover:text-accent font-mono uppercase tracking-wide">ARCHIVE</a>
+                    <a href="#contact" class="nav-link text-foreground hover:text-accent font-mono uppercase tracking-wide">CONNECT</a>
+                </div>
+                <button class="md:hidden text-accent" id="mobile-menu-btn">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-background via-primary/20 to-background">
+        <div class="floating-shapes">
+            <div class="shape bg-gradient-to-br from-accent/20 to-secondary/20"></div>
+            <div class="shape bg-gradient-to-br from-secondary/20 to-accent/20"></div>
+            <div class="shape bg-gradient-to-br from-accent/10 to-primary/20"></div>
+        </div>
+        
+        <div class="text-center z-10 px-6 max-w-4xl">
+            <div class="animate-fade-scale opacity-0" style="animation-delay: 0.5s;">
+                <h1 class="text-6xl md:text-8xl font-cyber font-black text-accent mb-6 glitch neon-text" data-text="AKASH_DEV">
+                    AKASH_DEV
+                </h1>
+                <div class="text-2xl md:text-3xl text-secondary font-mono mb-2 tracking-wider">
+                    [ SYSTEM_ONLINE ]
+                </div>
+            </div>
+            
+            <div class="animate-slide-up opacity-0" style="animation-delay: 1s;">
+                <p class="text-lg md:text-xl text-foreground/80 mb-8 font-mono typewriter leading-relaxed">
+                    &gt; Interfacing with the digital_matrix...
+                    <br>&gt; Crafting_cybernetic_experiences.exe
+                </p>
+            </div>
+            
+            <div class="animate-slide-up opacity-0 space-y-4" style="animation-delay: 1.5s;">
+                <button class="cyber-button hover-glow font-mono text-sm" id="jack-in-btn">
+                    [ JACK_IN ]
+                </button>
+                <div class="flex justify-center space-x-4 text-xs font-mono text-accent/60 mt-4">
+                    <span>STATUS: ONLINE</span>
+                    <span>|</span>
+                    <span>AKASH_LINK: ACTIVE</span>
+                    <span>|</span>
+                    <span>VERSION: 2025.09</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <div class="text-accent text-xs font-mono mb-2">&gt; SCROLL_DOWN</div>
+            <svg class="w-6 h-6 text-accent mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-card/30 border-y border-accent/20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-cyber font-bold text-accent mb-4 fade-in neon-text">&lt; PROFILE_DATA /&gt;</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-transparent via-accent to-transparent mx-auto"></div>
+                <div class="text-xs font-mono text-accent/60 mt-2">// Accessing neural_archive...</div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="fade-in">
+                    <div class="relative w-80 h-80 mx-auto">
+                        <div class="absolute inset-0 bg-gradient-to-br from-accent to-secondary rounded-lg animate-float hover-glow">
+                            <div class="absolute inset-2 bg-background rounded-lg flex items-center justify-center border border-accent/30 overflow-hidden">
+                                <img src="akash-photo.jpg" 
+                                     alt="AKASH Developer Profile" 
+                                     class="w-full h-full object-cover rounded-lg"
+                                     style="filter: saturate(120%) contrast(1.1) brightness(1.05);">
+                                <div class="absolute inset-0 bg-gradient-to-t from-accent/10 to-transparent rounded-lg"></div>
+                            </div>
+                        </div>
+                        <div class="absolute -top-4 -left-4 text-xs font-mono text-accent/40">
+                            &gt; akash_profile.load()
+                        </div>
+                        <div class="absolute -bottom-4 -right-4 text-xs font-mono text-secondary/40">
+                            &gt; identity.verified
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="fade-in space-y-6">
+                    <div class="border-l-2 border-accent pl-4">
+                        <h3 class="text-2xl font-cyber font-semibold text-accent mb-4">
+                            AKASH_DEVELOPER.exe
+                        </h3>
+                        <div class="space-y-4 font-mono text-sm">
+                            <p class="text-foreground/80 leading-relaxed">
+                                <span class="text-accent">&gt;</span> Full-Stack Developer & Tech Innovator<br>
+                                <span class="text-accent">&gt;</span> Passionate about creating digital solutions<br>
+                                <span class="text-accent">&gt;</span> Specialization: MERN Stack | Cloud Architecture | UI/UX
+                            </p>
+                            <div class="bg-primary/20 p-4 rounded border border-accent/20 mt-4">
+                                <div class="text-secondary font-cyber text-sm mb-2">CURRENT_STATUS:</div>
+                                <p class="text-foreground/70 text-xs leading-relaxed">
+                                    Building scalable web applications and exploring cutting-edge technologies. 
+                                    Always eager to learn, collaborate, and turn innovative ideas into reality. 
+                                    Open to exciting opportunities and challenging projects!
+                                </p>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3 mt-4">
+                                <div class="bg-card/10 p-3 rounded border border-accent/10">
+                                    <div class="text-accent text-xs font-cyber">EXPERIENCE</div>
+                                    <div class="text-foreground/80 text-xs">5+ Years Coding</div>
+                                </div>
+                                <div class="bg-card/10 p-3 rounded border border-accent/10">
+                                    <div class="text-secondary text-xs font-cyber">PROJECTS</div>
+                                    <div class="text-foreground/80 text-xs">20+ Completed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 relative">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-cyber font-bold text-accent mb-4 fade-in neon-text">&lt; SKILL_MATRIX /&gt;</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-transparent via-secondary to-transparent mx-auto"></div>
+                <div class="text-xs font-mono text-secondary/60 mt-2">// Loading neural_pathways...</div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="space-y-6 fade-in">
+                    <div class="skill-item bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-mono text-accent">JavaScript.neural | TypeScript.core</span>
+                            <span class="text-secondary font-cyber text-sm">95%</span>
+                        </div>
+                        <div class="skill-bar bg-primary/30 rounded-full h-3 relative overflow-hidden">
+                            <div class="skill-progress bg-gradient-to-r from-accent to-secondary rounded-full" data-width="95%"></div>
+                        </div>
+                        <div class="text-xs font-mono text-accent/40 mt-1">&gt; primary_neural_interface</div>
+                    </div>
+                    
+                    <div class="skill-item bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-mono text-accent">React.matrix | Next.cybernet</span>
+                            <span class="text-secondary font-cyber text-sm">90%</span>
+                        </div>
+                        <div class="skill-bar bg-primary/30 rounded-full h-3 relative overflow-hidden">
+                            <div class="skill-progress bg-gradient-to-r from-accent to-secondary rounded-full" data-width="90%"></div>
+                        </div>
+                        <div class="text-xs font-mono text-accent/40 mt-1">&gt; frontend_synthesis</div>
+                    </div>
+                    
+                    <div class="skill-item bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-mono text-accent">Node.server | Express.protocol</span>
+                            <span class="text-secondary font-cyber text-sm">85%</span>
+                        </div>
+                        <div class="skill-bar bg-primary/30 rounded-full h-3 relative overflow-hidden">
+                            <div class="skill-progress bg-gradient-to-r from-accent to-secondary rounded-full" data-width="85%"></div>
+                        </div>
+                        <div class="text-xs font-mono text-accent/40 mt-1">&gt; backend_architecture</div>
+                    </div>
+                </div>
+                
+                <div class="space-y-6 fade-in">
+                    <div class="skill-item bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-mono text-accent">UI.design | UX.psychology</span>
+                            <span class="text-secondary font-cyber text-sm">80%</span>
+                        </div>
+                        <div class="skill-bar bg-primary/30 rounded-full h-3 relative overflow-hidden">
+                            <div class="skill-progress bg-gradient-to-r from-accent to-secondary rounded-full" data-width="80%"></div>
+                        </div>
+                        <div class="text-xs font-mono text-accent/40 mt-1">&gt; visual_interface</div>
+                    </div>
+                    
+                    <div class="skill-item bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-mono text-accent">Database.core | SQL.query</span>
+                            <span class="text-secondary font-cyber text-sm">75%</span>
+                        </div>
+                        <div class="skill-bar bg-primary/30 rounded-full h-3 relative overflow-hidden">
+                            <div class="skill-progress bg-gradient-to-r from-accent to-secondary rounded-full" data-width="75%"></div>
+                        </div>
+                        <div class="text-xs font-mono text-accent/40 mt-1">&gt; data_management</div>
+                    </div>
+                    
+                    <div class="skill-item bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                        <div class="flex justify-between mb-2">
+                            <span class="font-mono text-accent">DevOps.cloud | Cyber.security</span>
+                            <span class="text-secondary font-cyber text-sm">70%</span>
+                        </div>
+                        <div class="skill-bar bg-primary/30 rounded-full h-3 relative overflow-hidden">
+                            <div class="skill-progress bg-gradient-to-r from-accent to-secondary rounded-full" data-width="70%"></div>
+                        </div>
+                        <div class="text-xs font-mono text-accent/40 mt-1">&gt; infrastructure_protocol</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-card/30 border-y border-accent/20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-cyber font-bold text-accent mb-4 fade-in neon-text">&lt; PROJECT_ARCHIVE /&gt;</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-transparent via-secondary to-transparent mx-auto"></div>
+                <div class="text-xs font-mono text-secondary/60 mt-2">// Accessing digital_artifacts...</div>
+            </div>
+            
+            <div class="grid md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-md mx-auto">
+                <div class="project-card bg-background/80 rounded-lg overflow-hidden border border-accent/30 hover-glow fade-in">
+                    <div class="h-48 bg-gradient-to-br from-accent/20 to-secondary/20 flex items-center justify-center relative overflow-hidden">
+                        <img src="akash.jpg" 
+                             alt="AKASH Portfolio Preview" 
+                             class="w-full h-full object-cover"
+                             style="filter: saturate(130%) contrast(1.05) brightness(1.1);">
+                        <div class="absolute inset-0 bg-gradient-to-t from-accent/20 to-transparent"></div>
+                        <div class="absolute top-2 left-2 text-xs font-mono text-accent/60">v3.2.1</div>
+                        <div class="absolute bottom-2 right-2 text-xs font-mono text-secondary/80">LIVE</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-cyber font-semibold text-accent mb-2">AKASH.portfolio_core</h3>
+                        <p class="text-foreground/70 mb-4 text-sm font-mono">
+                            &gt; Personal cybernetic portfolio interface<br>
+                            &gt; Full-stack development showcase<br>
+                            &gt; Interactive project demonstrations
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-accent/10 border border-accent/20 text-accent rounded text-xs font-mono">React.neural</span>
+                            <span class="px-3 py-1 bg-secondary/10 border border-secondary/20 text-secondary rounded text-xs font-mono">Next.cyber</span>
+                            <span class="px-3 py-1 bg-accent/10 border border-accent/20 text-accent rounded text-xs font-mono">Node.core</span>
+                        </div>
+                        <div class="flex space-x-3">
+                            <a href="https://akashsrm.netlify.app/" target="_blank" 
+                               class="cyber-button hover-glow font-mono text-xs flex-1 text-center py-2">
+                                [ VIEW_LIVE ]
+                            </a>
+                            <a href="https://github.com/Akash-srm861" target="_blank"
+                               class="cyber-button hover-glow font-mono text-xs flex-1 text-center py-2 border-secondary text-secondary hover:bg-secondary">
+                                [ SOURCE_CODE ]
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 relative">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-cyber font-bold text-accent mb-4 fade-in neon-text">&lt; NEURAL_LINK /&gt;</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-transparent via-secondary to-transparent mx-auto"></div>
+                <p class="text-foreground/70 mt-6 fade-in font-mono text-sm">
+                    &gt; Establishing secure connection...<br>
+                    &gt; Ready to sync with the network?
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="fade-in">
+                    <h3 class="text-2xl font-cyber font-semibold text-accent mb-6">&gt; CONNECTION_PROTOCOLS</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center space-x-4 bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                            <div class="w-12 h-12 bg-gradient-to-br from-accent to-secondary rounded flex items-center justify-center">
+                                <span class="text-xl">📧</span>
+                            </div>
+                            <div>
+                                <p class="font-cyber text-accent text-sm">EMAIL.protocol</p>
+                                <p class="text-foreground/70 font-mono text-xs">akashrgs212006@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4 bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                            <div class="w-12 h-12 bg-gradient-to-br from-secondary to-accent rounded flex items-center justify-center">
+                                <span class="text-xl">📱</span>
+                            </div>
+                            <div>
+                                <p class="font-cyber text-accent text-sm">VOICE.channel</p>
+                                <p class="text-foreground/70 font-mono text-xs">+91 9600023483</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center space-x-4 bg-card/20 p-4 rounded border border-accent/20 hover-glow">
+                            <div class="w-12 h-12 bg-gradient-to-br from-accent to-primary rounded flex items-center justify-center">
+                                <span class="text-xl">📍</span>
+                            </div>
+                            <div>
+                                <p class="font-cyber text-accent text-sm">LOCATION.node</p>
+                                <p class="text-foreground/70 font-mono text-xs">India, Sector 7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="space-y-6 fade-in bg-card/10 p-6 rounded-lg border border-accent/20" id="contact-form">
+                    <div class="text-xs font-mono text-accent/60 mb-4">&gt; message.compose()</div>
+                    <div>
+                        <input type="text" placeholder="user.name" required
+                               class="w-full px-4 py-3 bg-background/80 border border-accent/30 rounded text-foreground font-mono text-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all duration-300 hover-glow">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="user.email" required
+                               class="w-full px-4 py-3 bg-background/80 border border-accent/30 rounded text-foreground font-mono text-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all duration-300 hover-glow">
+                    </div>
+                    <div>
+                        <textarea rows="5" placeholder="message.content" required
+                                  class="w-full px-4 py-3 bg-background/80 border border-accent/30 rounded text-foreground font-mono text-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all duration-300 resize-none hover-glow"></textarea>
+                    </div>
+                    <button type="submit" class="cyber-button hover-glow font-mono text-sm w-full">
+                        [ TRANSMIT_DATA ]
+                    </button>
+                    <div class="text-xs font-mono text-accent/40 text-center">
+                        &gt; secure_transmission.enabled
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary/80 border-t border-accent/20 text-foreground py-8">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <div class="font-mono text-sm mb-4">
+                <span class="text-accent">&copy;</span> 2025 AKASH_DEV.sys | All_rights.reserved()
+            </div>
+            <div class="flex justify-center space-x-8 mb-4">
+                <a href="https://github.com/Akash-srm861" target="_blank" class="hover:text-accent transition-colors duration-300 font-mono text-xs hover-glow">[GitHub.repo]</a>
+                <a href="#" class="hover:text-accent transition-colors duration-300 font-mono text-xs hover-glow">[LinkedIn.profile]</a>
+                <a href="#" class="hover:text-accent transition-colors duration-300 font-mono text-xs hover-glow">[Twitter.feed]</a>
+            </div>
+            <div class="text-xs font-mono text-accent/40">
+                &gt; system.status: ONLINE | akash.link: ACTIVE | version: 2025.09.06
+            </div>
+        </div>
+    </footer>
+
+    <script src="app/script.js"></script>
+</body>
+</html>
